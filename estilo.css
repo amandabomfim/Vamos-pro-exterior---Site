@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-size: ;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, #766AAF, #949CDF);
+}
+
+.logo img{
+    width: 175px;
+    height: 168px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Garante que a logo vai para a esquerda e a nav no centro */
+    align-items: center;           
+    padding-left: 20px;                 
+}
+
+nav {
+    display: flex;                 
+    justify-content: center;  
+    background-color: white; 
+    max-width: 1000px;    
+    margin-right: 90px;   
+    width: 100%;                   
+    display: flex;                
+    justify-content: center;       
+    padding: 10px 0;              
+    border-radius: 8px;
+    font-weight: bold;       
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #2B2C34;             
+}
+
+
+nav ul {
+    list-style: none;             
+    display: flex;                
+    padding: 0;              
+}
+
+nav ul li {
+    margin-right: 80px;
+
+}
+
+.conteudo1 {
+    width: 550px;
+    margin: 40px 0px 0px 150px;
+}
+
+.conteudo1 h1 {
+    font-size: 42px;
+    color:#403930;
+}
+
+.conteudo1 p {
+    color: white;
+    width: 600px;
+}
+
+.botaoSobreNos{
+    background-color: #8FD8C6;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.botaoEntreEmContato {
+    background-color: #8fd8c600;
+    border: 2px solid #4D5566;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
